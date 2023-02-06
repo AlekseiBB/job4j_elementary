@@ -27,6 +27,7 @@ public class X2Test {
         Assert.assertEquals(expected, rsl1);
     }
 
+
     @Test
     public void whenA0B1C1X1Then2() {
         int a = 0;
