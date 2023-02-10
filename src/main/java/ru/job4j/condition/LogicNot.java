@@ -18,11 +18,11 @@ public class LogicNot {
         return !notPositive(num);
     }
 
-    public static boolean notEvenAndPositive(int num) { // проверяет, что число нечетное и положительное
+    public static boolean notEvenAndPositive(int num) {
         return !isEven(num) && isPositive(num);
     }
 
-    public static boolean evenOrNotPositive(int num) { //что число четное или не положительное
+    public static boolean evenOrNotPositive(int num) {
         return isEven(num) || !isPositive(num);
     }
 }
