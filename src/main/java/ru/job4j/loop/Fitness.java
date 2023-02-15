@@ -7,8 +7,6 @@ public class Fitness {
             month++;
             ivan *= 3;
             nik *= 2;
-            boolean b = ivan < nik;
-            break;
         }
         return month;
     }
